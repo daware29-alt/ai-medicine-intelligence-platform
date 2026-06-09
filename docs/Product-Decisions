@@ -1,1 +1,113 @@
-Product-Decisions
+```md id="prod001"
+# Product Decisions
+
+# AI Medicine Intelligence Platform
+
+---
+
+# Key Product Decisions
+
+This document captures major architectural and product decisions taken during MVP development.
+
+---
+
+# Decision 1 — Prompt-Level Disclaimer Enforcement
+
+### Problem
+
+UI disclaimers can be bypassed.
+
+### Decision
+
+Disclaimer embedded inside system prompt.
+
+### Reason
+
+Healthcare requires stronger safety controls.
+
+### Outcome
+
+Improved governance and reduced misuse risk.
+
+---
+
+# Decision 2 — SQL Lookup Instead of Vector Search
+
+### Problem
+
+Approximate retrieval in healthcare can be unsafe.
+
+### Decision
+
+Drug interactions handled through SQL exact lookup.
+
+### Reason
+
+Medical accuracy is non-negotiable.
+
+### Outcome
+
+Reduced ambiguity.
+
+Improved reliability.
+
+---
+
+# Decision 3 — Low Temperature (0.3)
+
+### Problem
+
+High creativity increases hallucination risk.
+
+### Decision
+
+Temperature restricted to 0.3.
+
+### Reason
+
+Deterministic outputs preferred.
+
+### Outcome
+
+More consistent medical responses.
+
+---
+
+# Decision 4 — Single Chunk Per Drug
+
+### Problem
+
+Splitting medicine information risks incomplete retrieval.
+
+### Decision
+
+One medicine = one chunk.
+
+### Reason
+
+Avoid fragmented medical understanding.
+
+### Outcome
+
+Improved retrieval completeness.
+
+---
+
+# Decision 5 — No Dosage Recommendation
+
+### Problem
+
+Unsafe medical behavior risk.
+
+### Decision
+
+Hard refusal for dosage advice.
+
+### Reason
+
+Avoid healthcare misuse.
+
+### Outcome
+
+Safer AI behavior.
+```

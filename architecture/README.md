@@ -19,8 +19,8 @@ The purpose of these artifacts is to explain:
 
 **File Name**
 
-```text
-solution-diagram.png
+<img width="512" height="1024" alt="solution-diagram" src="https://github.com/user-attachments/assets/9e447cd3-cc59-4a4d-a8db-128cccecb5a9" />
+
 ````
 
 Will illustrate:
@@ -47,9 +47,8 @@ Final Healthcare Response
 
 **File Name**
 
-```text
-workflow.png
-```
+<img width="512" height="1024" alt="workflow" src="https://github.com/user-attachments/assets/dbb2718f-421f-4204-a7bc-c354fa238a55" />
+
 
 Will illustrate:
 
@@ -64,10 +63,8 @@ Will illustrate:
 ### 3. Safety Architecture
 
 **File Name**
+<img width="512" height="1024" alt="safety-architecture" src="https://github.com/user-attachments/assets/376d024d-c27d-465e-8fb1-65515c692bd7" />
 
-```text
-safety-architecture.png
-```
 
 Will illustrate:
 

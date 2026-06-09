@@ -17,11 +17,7 @@ The purpose of these artifacts is to explain:
 
 ### 1. Solution Architecture
 
-**File Name**
-
 <img width="512" height="1024" alt="solution-diagram" src="https://github.com/user-attachments/assets/9e447cd3-cc59-4a4d-a8db-128cccecb5a9" />
-
-````
 
 Will illustrate:
 
@@ -45,8 +41,6 @@ Final Healthcare Response
 
 ### 2. Workflow Diagram
 
-**File Name**
-
 <img width="512" height="1024" alt="workflow" src="https://github.com/user-attachments/assets/dbb2718f-421f-4204-a7bc-c354fa238a55" />
 
 
@@ -62,7 +56,6 @@ Will illustrate:
 
 ### 3. Safety Architecture
 
-**File Name**
 <img width="512" height="1024" alt="safety-architecture" src="https://github.com/user-attachments/assets/376d024d-c27d-465e-8fb1-65515c692bd7" />
 
 

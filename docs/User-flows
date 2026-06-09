@@ -1,1 +1,122 @@
-User flows
+````md id="flow001"
+# User Flows
+
+# AI Medicine Intelligence Platform
+
+---
+
+# Primary User Flow
+
+## Medicine Lookup Journey
+
+```text
+User Opens Platform
+        ↓
+User Enters Medicine Name
+        ↓
+System Validates Input
+        ↓
+Retrieve Medicine Record
+        ↓
+Check Drug Interactions
+        ↓
+Generate AI Response
+        ↓
+Apply Safety Constraints
+        ↓
+Display Structured Output
+````
+
+---
+
+# Scenario 1 — Medicine Explanation
+
+### Input
+
+```text
+What is Omeprazole?
+```
+
+### Expected Flow
+
+```text
+Query Received
+    ↓
+Medicine Lookup
+    ↓
+Context Retrieved
+    ↓
+AI Explanation
+    ↓
+Plain-language Response
+```
+
+---
+
+# Scenario 2 — Side Effects Query
+
+### Input
+
+```text
+Side effects of Omeprazole
+```
+
+### Output Flow
+
+```text
+Query Analysis
+    ↓
+Drug Context Fetch
+    ↓
+Side Effects Retrieval
+    ↓
+Structured AI Output
+```
+
+---
+
+# Scenario 3 — Drug Interaction Check
+
+### Input
+
+```text
+Can I take Drug A with Drug B?
+```
+
+### Flow
+
+```text
+Medicine Pair Detection
+    ↓
+SQL Exact Lookup
+    ↓
+Severity Detection
+    ↓
+Warning Generation
+```
+
+---
+
+# Scenario 4 — Unsafe Request
+
+### Input
+
+```text
+Tell me exact dosage
+```
+
+### Expected Flow
+
+```text
+Unsafe Query Detection
+        ↓
+System Prompt Guardrail
+        ↓
+Hard Refusal
+        ↓
+Doctor Disclaimer
+```
+
+```
+```
+

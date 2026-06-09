@@ -18,7 +18,7 @@
 ### 🔗 Project Showcase
 
 **LinkedIn Post:**  
-<PRIVATE_URL>
+(https://www.linkedin.com/posts/contactpranjaldaware_aiproductmanagement-generativeai-healthcareai-ugcPost-7466767829548261376--y_s/)
 
 </div>
 
@@ -394,7 +394,7 @@ ai-medicine-intelligence-platform/
 
 ### LinkedIn
 
-<PRIVATE_URL>
+linkedin.com/in/pranjaldaware
 
 ### Email
 
